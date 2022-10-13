@@ -1,0 +1,106 @@
+body {
+  margin: 0px 0px 0px 0px;
+  background-image: url(./img/bgr.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+body::after{
+    display: block;
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(24, 24, 24, 0.782) , rgba(21, 20, 20, 0.442)80%) ;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.fa-circle {
+  color: green;
+  font-size: 1rem;
+}
+.box_tong {
+  width: 35rem;
+  height: 60rem;
+  padding: 3rem 5rem;
+}
+.bgr {
+  width: 4rem;
+  height: 4rem;
+}
+.tieude {
+  color: green;
+  line-height: 2px;
+}
+.H_J {
+  color: gray;
+  margin-top: 2rem;
+}
+.box_head {
+  display: flex;
+  justify-content: space-between;
+}
+.box_conten {
+  margin-top: 5rem;
+  line-height: 1rem;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+.alog {
+  color: green;
+}
+.HovaTen {
+  margin-top: 2rem;
+}
+
+.HovaTen {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.cuc-hai {
+  background-color: gray;
+  width: 9rem;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+input {
+  width: 4rem;
+  outline-style: none;
+  background-color: gray;
+  border: none;
+}
+.TaiKhoan {
+  margin-top: 1rem;
+  line-height: 1rem;
+}
+.cuc-mot {
+  background-color: gray;
+  width: 25rem;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+button {
+  margin-top: 2rem;
+  background-color: grey;
+  color: green;
+  border-radius: 2rem;
+  width: 9rem;
+  height: 3rem;
+}
+.bt {
+  color: grey;
+  background-color: green;
+}
+i {
+  margin-top: 3px;
+}
